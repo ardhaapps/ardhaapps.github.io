@@ -1,0 +1,14 @@
+Sitemap: https://.ardhaapps.github.io/sitemap.xml
+
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ardhaapps.github.io[nc]
+RewriteRule ^(.*)$ http://www.ardhaapps.github.io/$1 [r=301,nc]
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ 
