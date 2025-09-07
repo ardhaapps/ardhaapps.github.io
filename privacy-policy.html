@@ -1,99 +1,313 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<style>
-	body {margin:0;}
-	ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #FFFFEBEE;position: fixed;top: 0;width: 100%;}
-	li {width: 100%;float: left;}
-	li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
-	.w3-pale-blue, .w3-hover-pale-blue:hover {color: #000!important;background-color: #FFFFEBEE!important;}
-	.w3-leftbar {border-left: 6px solid #F1685E!important;}
-	.w3-container, .w3-panel {padding: 0.01em 16px;}
-	p{text-align: justify;}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Ardha Apps</title>
+  <meta name="description" content="Privacy Policy for Ardha Apps. How we collect, use and protect your data. Google Play (2025) compliant template." />
+  <style>
+    :root{
+      --bg:#f7fafc;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0ea5a4;
+      --max-width:1000px;
+      --radius:12px;
+      --shadow: 0 6px 18px rgba(16,24,40,0.06);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: light;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg, #eef2f7 0%, var(--bg) 100%);
+      font-size:16px;
+      color:#0f172a;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .wrap{
+      max-width:var(--max-width);
+      margin:36px auto;
+      padding:20px;
+    }
+    header.card{
+      background:var(--card);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:var(--shadow);
+      display:flex;
+      gap:16px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .brand{display:flex;flex-direction:column;gap:4px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:0;color:var(--muted)}
+    main.card{margin-top:20px;padding:26px;border-radius:var(--radius);box-shadow:var(--shadow);background:var(--card)}
+    .meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+    .meta .pill{background:#eef9f9;border-radius:999px;padding:8px 12px;font-size:14px;color:#064e52}
+    section{margin-bottom:20px}
+    h2{font-size:18px;margin:6px 0}
+    .muted{color:var(--muted)}
+    ul{padding-left:20px}
+    table.summary{width:100%;border-collapse:collapse;margin-top:12px}
+    table.summary td, table.summary th{padding:10px;border:1px solid #eef2f7}
+    table.summary th{text-align:left;background:#fbfbfd}
+    .accordion{border-top:1px solid #f1f5f9}
+    .acc-item{border-bottom:1px solid #f1f5f9}
+    .acc-head{display:flex;justify-content:space-between;align-items:center;padding:14px 0;cursor:pointer}
+    .acc-head h3{margin:0;font-size:15px}
+    .acc-body{max-height:0;overflow:hidden;transition:all .28s ease;padding-right:6px}
+    .acc-body.open{max-height:500px;padding-bottom:14px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:14px}
+    @media (min-width:860px){header.card{padding:26px}.brand{flex-direction:row;align-items:center}.brand .title{margin-left:8px}h1{font-size:22px}}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;border:0;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .small{font-size:14px}
+    .muted-block{color:var(--muted);font-size:14px}
+    code{background:#f1f5f9;padding:4px 6px;border-radius:6px;font-family:monospace}
+    .data-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .card-mini{background:#fbfeff;border-radius:10px;padding:12px;border:1px solid #eef6f6}
+  </style>
 </head>
 <body>
-	<!-- <ul>
-		<li><a><font size="5"><b> Nithra School Connect</b></font><br><font size="4"><b> FAQ</b></font></a></li>
-	</ul> -->
-	<!-- <div style="padding:10px;margin-top:90px;"> -->
-		<div style="padding:10px;margin-top:10px;">
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="6"><b> Privacy Policy</b></font><br><br>Built the Ardha Apps app as a Free app. This SERVICE is provided by at no cost and is intended for use as is.
+  <div class="wrap">
+    <header class="card" role="banner">
+      <div class="logo" aria-hidden>A</div>
+      <div class="brand">
+        <div class="title">
+          <h1>Ardha Apps — Privacy Policy</h1>
+          <p class="lead">Last updated: <strong id="lastUpdated">[Date]</strong></p>
+        </div>
+      </div>
+      <div style="margin-left:auto">
+        <a class="btn" href="https://ardhaapps.com/" target="_blank" rel="noopener">Visit website</a>
+      </div>
+    </header>
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+    <main class="card" role="main">
+      <div class="meta">
+        <div class="pill">Company: Ardha Apps</div>
+        <div class="pill">Email: <a href="mailto:ardhaapps@gmail.com">ardhaapps@gmail.com</a></div>
+        <div class="pill">Website: <a href="https://ardhaapps.com/" target="_blank" rel="noopener">ardhaapps.com</a></div>
+      </div>
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+      <section aria-labelledby="scope">
+        <h2 id="scope">1. Scope & Consent</h2>
+        <p class="muted-block">This Privacy Policy explains how Ardha Apps ("we", "us" or "our") collects, uses, stores and shares personal information when you use our mobile applications or visit https://ardhaapps.com ("Services"). Use of our Services implies consent to the practices described in this policy. If you are under the age required by law in your country to form a binding contract, please do not use our Services without parental consent.</p>
+      </section>
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Ardha Apps unless otherwise defined in this Privacy Policy.</p>
-		</div><br>
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b> Information Collection and Use
+      <section aria-labelledby="datasafety">
+        <h2 id="datasafety">2. Google Play Data Safety (summary)</h2>
+        <p class="muted-block">To comply with Google Play (2025) requirements, we disclose below the high-level types of data collected and how they are used. This page is a summary — the app's Data Safety form (submitted in the Play Console) should match this disclosure exactly.</p>
 
-</b></font><br><br>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+        <div class="data-grid">
+          <div class="card-mini">
+            <strong>Data Types Collected</strong>
+            <ul>
+              <li>Identifiers (Device ID)</li>
+              <li>Contact info (Email) — if provided</li>
+              <li>Usage & Diagnostics (crash logs, analytics)</li>
+              <li>Location — approximate (only if enabled)</li>
+            </ul>
+          </div>
 
-The app does use third party services that may collect information used to identify you.
+          <div class="card-mini">
+            <strong>Purpose</strong>
+            <ul>
+              <li>App functionality</li>
+              <li>Analytics & performance</li>
+              <li>Personalization</li>
+              <li>Fraud prevention & security</li>
+            </ul>
+          </div>
 
-Link to privacy policy of third party service providers used by the app
+          <div class="card-mini">
+            <strong>Shared With</strong>
+            <ul>
+              <li>Service providers (analytics, crash reporting)</li>
+              <li>Advertising partners (only if ads enabled)</li>
+              <li>Legal authorities as required</li>
+            </ul>
+          </div>
 
-Google Play Services.</p>
-		</div><br>
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b> Log Data
+          <div class="card-mini">
+            <strong>Encryption</strong>
+            <p class="muted-block small">Data in transit is encrypted via TLS/SSL. Sensitive PII is encrypted at rest where applicable.</p>
+          </div>
+        </div>
 
-</b></font><br><br>I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</p>
-		</div><br>
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Cookies</b></font><br><br>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+        <p class="muted-block">Note: If your app uses ads or advertising identifiers, ensure the Play Console Data Safety section marks "Yes" for collection and sharing for ads. Update the app's Data Safety form whenever you add/remove SDKs or change data practices.</p>
+      </section>
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-</p>
-		</div><br>
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Service Providers</b></font><br><br>I may employ third-party companies and individuals due to the following reasons:
+      <section aria-labelledby="info">
+        <h2 id="info">3. Information We Collect</h2>
+        <h3>3.1 Personally Identifiable Information (PII)</h3>
+        <p class="muted-block">We collect PII only when you voluntarily provide it (for example, when you register, contact support or make an in-app purchase). PII may include:</p>
+        <ul>
+          <li>Name</li>
+          <li>Email address</li>
+          <li>Phone number</li>
+          <li>Payment details (processed by third-party payment processors)</li>
+        </ul>
 
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service is used.
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-</p>
-		</div><br>
+        <h3>3.2 Non‑Personally Identifiable Information (Non‑PII)</h3>
+        <p class="muted-block">Automatically collected data may include:</p>
+        <ul>
+          <li>Device identifiers (Advertising ID, Device ID)</li>
+          <li>App usage and crash reports</li>
+          <li>IP address and approximate location</li>
+          <li>Operating system and device model</li>
+        </ul>
+      </section>
 
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Security</b></font><br><br>I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
-</p>
-		</div><br>
+      <section aria-labelledby="permissions">
+        <h2 id="permissions">4. Permissions & Why We Request Them</h2>
+        <p class="muted-block">We request only the permissions required for app functionality. Below are common permissions and their justification — update as per your app's actual usage before publishing.</p>
+        <ul>
+          <li><strong>INTERNET</strong>: Required to access web services, APIs, and third‑party services.</li>
+          <li><strong>ACCESS_NETWORK_STATE</strong>: To detect connectivity and handle offline scenarios.</li>
+          <li><strong>LOCATION (approximate)</strong>: Optional. Used only when the user enables location-based features. We do not collect fine location unless explicitly stated.</li>
+          <li><strong>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE</strong>: If your app accesses media or files. From Android 11+, use scoped storage APIs.</li>
+          <li><strong>CAMERA</strong>: Only if your app provides photo/video capture features; explicit runtime consent is required.</li>
+        </ul>
+        <p class="muted-block">Important: For every permission marked "dangerous" by Android, request it at runtime with a clear explanation of why it is needed. The Play Store review may reject apps that request unrelated or excessive permissions.</p>
+      </section>
 
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Links to Other Sites
+      <section aria-labelledby="thirdparty">
+        <h2 id="thirdparty">5. Third‑Party SDKs, Ads & Analytics</h2>
+        <p class="muted-block">We may use third‑party SDKs and services to provide analytics, crash reporting, advertising, and other features. These third parties may collect and process data under their own policies. Common examples include Google Firebase, Google AdMob, and other analytics or ad networks.</p>
+        <p class="muted-block"><strong>Action required for publishers:</strong> Ensure every SDK used in the app is declared in the Play Console Data Safety form and the SDK's data practices are accurately reflected. If you use AdMob or other ad networks, disclose that advertising data is collected and shared for ad personalization.</p>
 
-</b></font><br><br>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-</p>
-		</div><br>
+        <details>
+          <summary><strong>Suggested SDK placeholders — edit to match your app</strong></summary>
+          <ul>
+            <li>Firebase Analytics / Crashlytics</li>
+            <li>Google AdMob (Ads)</li>
+            <li>AppLovin / MAX (Ads)</li>
+            <li>Facebook Audience Network (Ads)</li>
+          </ul>
+          <p class="muted-block">Replace or remove these placeholders to reflect your app's actual SDKs.</p>
+        </details>
+      </section>
 
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Children’s Privacy
+      <section aria-labelledby="child">
+        <h2 id="child">6. Children’s Privacy</h2>
+        <p class="muted-block">Our Services are not intended for children under the age of 13 (or a higher age if required by local law). We do not knowingly collect PII from children. If you believe your child has provided us with personal information, please contact us so we can delete the information.</p>
+      </section>
 
+      <section aria-labelledby="security">
+        <h2 id="security">7. Security & Data Retention</h2>
+        <p class="muted-block">We implement reasonable technical and organizational measures to protect data (e.g., TLS for data in transit and secure storage practices). We retain personal data only as long as necessary to provide the Services, comply with legal obligations, resolve disputes, and enforce agreements.</p>
+      </section>
 
-</b></font><br><br>These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
-</p>
-		</div><br>
+      <section aria-labelledby="rights">
+        <h2 id="rights">8. User Rights — GDPR & CCPA (Overview)</h2>
+        <p class="muted-block">Depending on your jurisdiction, you may have rights such as:</p>
+        <ul>
+          <li>Access to the personal information we hold about you</li>
+          <li>Request correction or deletion of your information</li>
+          <li>Object to processing or request restriction</li>
+          <li>Request data portability</li>
+          <li>For California residents: the right to know, delete, and opt-out of sale/sharing of personal information (as applicable)</li>
+        </ul>
+        <p class="muted-block">To exercise any rights, contact us at <a href="mailto:ardhaapps@gmail.com">ardhaapps@gmail.com</a>. We may verify your identity before fulfilling requests.</p>
+      </section>
 
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Changes to This Privacy Policy
+      <section aria-labelledby="deletion">
+        <h2 id="deletion">9. How to Request Deletion or Data Access</h2>
+        <p class="muted-block">Send an email to <a href="mailto:ardhaapps@gmail.com">ardhaapps@gmail.com</a> with:</p>
+        <ol>
+          <li>Your name and the email associated with the account (if any)</li>
+          <li>A clear description of the data or request (access, deletion, correction)</li>
+          <li>Preferred contact method</li>
+        </ol>
+        <p class="muted-block">We'll respond within a reasonable timeframe and may request additional information to verify identity. Some data may be retained for legal or legitimate business reasons.</p>
+      </section>
 
-</b></font><br><br>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-</p>
-		</div><br>
+      <section aria-labelledby="cookies">
+        <h2 id="cookies">10. Cookies & Tracking</h2>
+        <p class="muted-block">We use cookies and similar tracking technologies to provide and improve the Services. You may control cookie preferences through your device or browser settings, but disabling cookies may limit functionality.</p>
+      </section>
 
-		<div class="w3-container w3-pale-blue w3-leftbar">
-			<p><font size="4"><b>Contact Us
+      <section aria-labelledby="changes">
+        <h2 id="changes">11. Changes to This Policy</h2>
+        <p class="muted-block">We may update this policy to reflect changes in our practices or legal requirements. Material changes will be posted with an updated "Last updated" date. Continued use after changes indicates acceptance.</p>
+      </section>
 
-</b></font><br><br>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
-</p>
-		</div><br>
-	</div>
+      <section aria-labelledby="contact">
+        <h2 id="contact">12. Contact Information</h2>
+        <p class="muted-block">If you have questions, concerns, or requests regarding this Privacy Policy, contact us:</p>
+        <table class="summary" role="table">
+          <tr><th>Company</th><td>Ardha Apps</td></tr>
+          <tr><th>Email</th><td><a href="mailto:ardhaapps@gmail.com">ardhaapps@gmail.com</a></td></tr>
+          <tr><th>Website</th><td><a href="https://ardhaapps.com/" target="_blank" rel="noopener">https://ardhaapps.com/</a></td></tr>
+          <!-- <tr><th>Address</th><td>—</td></tr> -->
+        </table>
+      </section>
+
+      <section aria-labelledby="summary">
+        <h2 id="summary">Quick Summary (for Play Console)</h2>
+        <p class="muted-block">Use the following as a checklist when filling the Play Console Data Safety form. Make sure the app's settings match these answers exactly.</p>
+        <ul>
+          <li>Data collected: Identifiers, Contact info (optional), Usage & Diagnostics, Location (optional)</li>
+          <li>Data shared: Yes — with service providers and ad partners (if ads enabled)</li>
+          <li>Encrypted in transit: Yes (TLS/SSL)</li>
+          <li>Personal info collected for: App functionality, analytics, and personalization</li>
+          <li>Children's policy: Not directed to children under 13</li>
+        </ul>
+      </section>
+
+      <div class="accordion" aria-hidden="false">
+        <div class="acc-item">
+          <div class="acc-head" data-target="a1" tabindex="0">
+            <h3>Does Ardha Apps sell personal information?</h3>
+            <div class="small muted">No</div>
+          </div>
+          <div id="a1" class="acc-body">
+            <p class="muted-block">We do not sell personal information. We may share data with service providers who process data on our behalf under contract. If you are in a jurisdiction with a "sale" definition (e.g., California), contact us to exercise opt‑out rights if applicable.</p>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <div class="acc-head" data-target="a2" tabindex="0">
+            <h3>How do I update my consent preferences?</h3>
+            <div class="small muted">Email us</div>
+          </div>
+          <div id="a2" class="acc-body">
+            <p class="muted-block">Send your request to <a href="mailto:ardhaapps@gmail.com">ardhaapps@gmail.com</a>. For marketing communications, you may opt out using the unsubscribe link in promotional emails.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p class="muted">© <span id="year"></span> Ardha Apps. All rights reserved.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // populate dates
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const today = new Date();
+    const opts = { year:'numeric', month:'long', day:'numeric' };
+    document.getElementById('lastUpdated').textContent = today.toLocaleDateString('en-GB', opts);
+
+    // simple accessible accordion
+    document.querySelectorAll('.acc-head').forEach(el=>{
+      el.addEventListener('click', ()=> toggle(el));
+      el.addEventListener('keydown', (e)=>{ if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(el); } });
+    });
+    function toggle(el){
+      const id = el.getAttribute('data-target');
+      const body = document.getElementById(id);
+      const open = body.classList.contains('open');
+      document.querySelectorAll('.acc-body').forEach(b=>b.classList.remove('open'));
+      if(!open) body.classList.add('open');
+    }
+  </script>
 </body>
 </html>
